@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Before
+        id: before-step
+        run: ls
+
+      - name: Check
+        uses: actions/checkout@v3
+        needs: before-step
+
+      - name: After
+        id: after-step
+        run: ls
+        needs: Check
