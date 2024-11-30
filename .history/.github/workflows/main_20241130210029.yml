@@ -8,9 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'printing folder content'
-        run: ls
-        
+      - name: 'printing folder contetn'
+        run: pwd
 
       #- name: 'test print'
       #  run: echo mostafa

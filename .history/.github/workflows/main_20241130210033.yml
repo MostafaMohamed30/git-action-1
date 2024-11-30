@@ -9,8 +9,7 @@ jobs:
 
     steps:
       - name: 'printing folder content'
-        run: ls
-        
+        run: pwd
 
       #- name: 'test print'
       #  run: echo mostafa
