@@ -8,10 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'before'
+      - name: 'printing folder content'
         run: ls
 
 
-      - uses: action/check@v3
-      - name: 'after'
-        run: ls
+      - uses: action/check@v
