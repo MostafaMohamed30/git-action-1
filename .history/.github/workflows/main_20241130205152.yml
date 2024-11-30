@@ -1,0 +1,24 @@
+on:
+  push: 
+    branches:
+      - master
+
+      
+
+
+
+
+
+
+jobs:
+  bulid:
+    runs-on: ubuntu-latest
+
+
+    steps:
+        - name: 'test github'
+               run: pwd
+        
+
+        - name: 'test print'
+          run: echo mostafa

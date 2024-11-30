@@ -12,4 +12,4 @@ jobs:
         run: pwd
 
       - name: 'test print'
-        run: echo mostafa
+        run: echo "Build job triggered successfully!"

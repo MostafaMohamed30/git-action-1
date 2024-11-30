@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: 'test github'
-        run: pwd
+        run:
 
-      - name: 'test print'
-        run: echo mostafa
+      - name: Print a message
+        run: echo "Build job triggered successfully!"
